@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./kuki.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Kuki my wife💙.</strong>
+                        <p>
+                            You are like an angel in my life, like my life got really better after u came babe🥹
+                            thank you for always being with me, i love you so much very very much 
+                            i promise to stay with you even in ur bad days, i will stay wiih forever 
+                            you are forever mine ony mine, you are my everything, my world , my wife, my precious wife,
+                            my beautiful wife, my sexyy n hott wife🫠🫠
+                            one day ill marry you for sure😤😤
+                            i cant live without you babe🥹
+                            i really need you in my life
+                            thank you again
+                            i really love you
+
+
+                            regards
+                            ur hubby
+                
+            
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
